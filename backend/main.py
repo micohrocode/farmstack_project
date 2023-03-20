@@ -2,6 +2,10 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from model import Todo
 
+# run app:
+# pipenv shell
+# uvicorn main:app --reload
+
 # Create the app object
 app = FastAPI()
 
